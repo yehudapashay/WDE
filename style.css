@@ -1,0 +1,93 @@
+h4,h2,h5 {
+  border-collapse: separate;
+  border-spacing: 16px 0;
+  border-spacing: 1rem 0;
+  color: #123;
+  display: table;
+  font-family: Merriweather;
+  font-size: 5em;
+  line-height: .25;
+  margin: 1em 0 .5em;
+  table-layout: auto;
+  text-align: center;
+  text-shadow: .0625em .0625em 0 rgba(0, 0, 0, .2);
+  white-space: nowrap;
+  width: 100%;
+}
+
+.logo{
+	width: 100px;
+	height: 70px;
+}
+
+h4:before,h4:after{
+  border-top: 3px double #123;
+  content: '';
+  display: table-cell;
+  width: 50%;
+}
+
+h4:before,h4:after {
+  border-top-width: 6px;
+}
+
+h2 { font-size: 2.5em; }
+h2:before,h2:after {
+  border-top-style: solid;
+}
+
+
+h5 { font-size: 1.5em; }
+h5:before,h5:after {
+  border-top-color: CornflowerBlue;
+  border-top-style: groove;
+}
+
+pre {font-family: "Arial", Times, serif;
+	font-size : 1.35em}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+body {
+  <!--->background-image: url("background3.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+  background-size: 800px 800px;
+    background-color: #E6E6FA
+}
+
+
+
+li {
+  float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: #444;
+}
