@@ -59,13 +59,14 @@ ul {
 
 
 body {
-  <!--->background-image: url("background3.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   margin-right: 200px;
   background-attachment: fixed;
   background-size: 800px 800px;
-    background-color: #E6E6FA
+  	text-align: center;
+  background-color: #E6E6FA
+
 }
 
 
