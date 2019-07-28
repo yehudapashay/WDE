@@ -1,3 +1,3 @@
 # mySite
 
-Building HTML site
+Building a HTML site
